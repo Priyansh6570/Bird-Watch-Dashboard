@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/birdcount.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYemg73AsHkHClmoFzVqsH_aUK3-W3BYs"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GMAP_API_KEY"></script>
     <script type="text/javascript" src="js/underscore-min.js"></script>
     <script type="text/javascript" src="js/sammyjs-0.7.6.js"></script>
     <script type="text/javascript" src="js/infobox_packed-1.19.js"></script>
@@ -19,12 +19,12 @@
     <script>
         var MAP_DATA = {
             july: {
-                mapSpreadSheetId: '1iOgCyIUcf9ODlAZM5ImvdIwCpGJStBd2vOJxgw58Le8',
+                mapSpreadSheetId: 'YOUR_SPREADSHEET_ID',
                 name: 'July',
                 mapContainerId: 'july'
             },
             february: {
-                mapSpreadSheetId: '1iOgCyIUcf9ODlAZM5ImvdIwCpGJStBd2vOJxgw58Le8',
+                mapSpreadSheetId: 'YOUR_SPREADSHEET_ID',
                 name: 'February',
                 mapContainerId: 'february'
             }         
@@ -40,7 +40,7 @@
     </script>
 
 <!-- gdoc uri  -->
-<!-- https://sheets.googleapis.com/v4/spreadsheets/1iOgCyIUcf9ODlAZM5ImvdIwCpGJStBd2vOJxgw58Le8/values/coordinates?key=AIzaSyCYemg73AsHkHClmoFzVqsH_aUK3-W3BYs -->
+<!-- https://sheets.googleapis.com/v4/spreadsheets/1iOgCyIUcf9ODlAZM5ImvdIwCpGJStBd2vOJxgw58Le8/values/coordinates?key=YOUR_API_KEY-->
 </head>
 <body id="main">
 <nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -52,15 +52,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#/">Coimbatore Bird Atlas</a>
+            <a class="navbar-brand" href="#/">Ahmedabad Bird Atlas</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav nav-pills">
                 <li role="presentation">
-                    <a href="#/kerala/february" role="tab" data-target="#february" data-toggle="tab">February</a>
+                    <a href="#/ahmedabad/february" role="tab" data-target="#february" data-toggle="tab">February</a>
                 </li>
                 <li role="presentation">
-                    <a href="#/kerala/july" role="tab" data-target="#july" data-toggle="tab">July</a>
+                    <a href="#/ahmedabad/july" role="tab" data-target="#july" data-toggle="tab">July</a>
                 </li>
             </ul>
         </div>

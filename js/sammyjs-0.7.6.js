@@ -1355,14 +1355,14 @@
   });
 
   Sammy(function() {
-    this.get('#/kerala/february', function(context) {
-      // Code to render the February map for Kerala
+    this.get('#/ahmedabad/february', function(context) {
+      // Code to render the February map for ahmedabad
       $('#february').show();
       $('#july').hide();
     });
 
-    this.get('#/kerala/july', function(context) {
-      // Code to render the July map for Kerala
+    this.get('#/ahmedabad/july', function(context) {
+      // Code to render the July map for ahmedabad
       $('#july').show();
       $('#february').hide();
     });
